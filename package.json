@@ -1,12 +1,22 @@
 {
-  "name": "threed",
+  "name": "fox",
   "version": "1.0.0",
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
     "build": "parcel build"
   },
+  "dependencies": {
+    "@adobe/react-spectrum": "3.14.1",
+    "@jscad/modeling": "2.5.3",
+    "@react-three/drei": "7.13.1",
+    "@react-three/fiber": "7.0.7",
+    "react": "0.0.0-experimental-fd5e01c2e-20210913",
+    "react-dom": "0.0.0-experimental-fd5e01c2e-20210913",
+    "three": "0.132.2"
+  },
   "devDependencies": {
-    "parcel": "^2.0.0-rc.0"
+    "parcel": "^2.0.0-rc.0",
+    "@types/three": "0.132.0"
   }
 }
